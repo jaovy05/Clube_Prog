@@ -3,10 +3,6 @@
 using namespace std;
 
 int main(){
-    int sides;
-
-    cin >> sides;
-
-    cout << sides - 2 << endl;
+    for(int i = 2; i <= 100; i+= 2) cout << i << endl;
     return 0;
 }
